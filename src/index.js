@@ -21,6 +21,17 @@ const name = "Botir"
 const myel= <h1>salom,{name}</h1>
 ReactDOM.render(myel,document.getElementById('h6'));
 
+
+function getGreeting(name){
+  if (name) {
+    return <h2>Salom {name}</h2>
+  }else{
+    return <h2>Ism Kiriting</h2>
+  }
+} 
+const myElement4 = getGreeting("Botir") ;
+
+ReactDOM.render(myElement4,document.getElementById('h7'))
   
 
 ReactDOM.render(<App />,
