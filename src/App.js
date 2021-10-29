@@ -7,12 +7,13 @@ import Home from "./components/Home";
 function App() {
   return (
     <div>
-      <Header />
-    <h1>salom</h1>
-    
-    <Home />
 
-    <Footer />
+      <Header />
+
+     <h1>salom</h1>
+      <Home />
+
+      <Footer />
     </div>
   )
 }
