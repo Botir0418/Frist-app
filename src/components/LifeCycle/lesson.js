@@ -5,15 +5,15 @@ class Lesson extends React.Component {
           super(props);
           this.state = {favoritecolor: "red"};
         }
-        // static getDerivedStateFromProps(props, state) {
-        //     return {favoritecolor: props.favcol };
-        //   }
+        static getDerivedStateFromProps(props, state) {
+            return {favoritecolor: props.favcol };
+          }
 
-        // componentDidMount() {
-        //     setTimeout(() => {
-        //       this.setState({favoritecolor: "yellow"})
-        //     }, 3000)
-        //   }
+        componentDidMount() {
+            setTimeout(() => {
+              this.setState({favoritecolor: "yellow"})
+            }, 3000)
+          }
 
         
         render() {
